@@ -8,11 +8,25 @@
 </head>
 <body>
     <h1>inlogg</h1>
-    <form id="login" action="signup.php" method="post">
-      <input type="text" autocomplete="username">
-      <input type="password" autocomplete="new-password">
-      <input type="password" autocomplete="new-password">
-      <input type="submit" value="Sign Up!">
+    <form id="login" action="/login" method="post">
+      <label for="username">Username</label>
+      <input
+        id="username"
+        type="text"
+        name="username"
+        autocomplete="username"
+        required
+      >
+      <label for="password">Password</label>
+      <input
+        id="password"
+        type="password"
+        name="password"
+        autocomplete="current-password"
+        required
+      >
+    
+      <button type="submit">Sign In</button>
     </form>
           <article>
         <input type="text" name="" id="text">
