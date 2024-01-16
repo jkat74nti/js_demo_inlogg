@@ -8,16 +8,15 @@
 </head>
 <body>
     <h1>inlogg</h1>
-    <div>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" />
-      </div>
-      
-      <div>
-        <label for="pass">Password (8 characters minimum):</label>
-        <input type="password" id="pass" name="password" minlength="8" required />
-      </div>
-      
-      <input type="submit" value="Sign in" />
+    <form id="login" action="signup.php" method="post">
+      <input type="text" autocomplete="username">
+      <input type="password" autocomplete="new-password">
+      <input type="password" autocomplete="new-password">
+      <input type="submit" value="Sign Up!">
+    </form>
+          <article>
+        <input type="text" name="" id="text">
+        <button onclick="add()"></button>
+      </article>
 </body>
 </html>
